@@ -1,0 +1,28 @@
+INSERT INTO [ZX_Designer] VALUES ('5FC81E66-3CB4-4A59-836B-0BF4173EC741', '4C0DB924-A6EB-43B7-BDCE-1E6E934AB14D', '徐', '0', 22, '在，', '这么些', '这么，', NULL, 80, '15116736700', '141467', NULL, NULL, NULL, NULL, NULL, 'c4866465-d924-4173-8b11-d6ef39dd1bd9', NULL, '天意设计', NULL, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('251612C2-25B4-467B-B2D3-0D529C062FA7', '06CC7B7B-43EE-45F2-A671-DB11E553D4E6', '男青年', '0', 5, '湖畔大学', '溜须拍马，弄虚作假', '客户要什么，我就给什么', NULL, 65, '18216451243', '1234', '1@rr.com', 21, 555, NULL, NULL, 'f4daee3a-8bff-4ec1-8920-6bb876698f9c', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('FBDC2039-9DD1-427B-BB1D-12407E3692C8', '71D0C17C-4A50-4F35-9750-F8FCAD3DA4AB', '1', '0', 1, '1', '1', '1', NULL, 55, '18707300741', '1', '319941463@qq.com', 22, 63, NULL, NULL, 'b7799a07-deba-4353-92df-eb9c0dbc85b0', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('3B3A8119-3DDC-4115-98DF-15D2D0A1F9EB', '71D0C17C-4A50-4F35-9750-F8FCAD3DA4AB', '李大爷', '1', 5, NULL, 'ten years ', '夏虫不可语冰 古人诚不我欺', NULL, 85, NULL, NULL, 'z@163.com', 35, 444, NULL, NULL, 'efef5104-b81f-41d7-9fdf-3f75eabb415f', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('AE47D205-9290-4CC1-A6B7-1ACEA1D11E0A', '71D0C17C-4A50-4F35-9750-F8FCAD3DA4AB', '黄12', '0', 1, '123', '123', '12', NULL, 100, '18707300705', '123', '319941468@qq.com', 22, 458, NULL, NULL, 'a6298efa-36bf-46c0-9573-7a4d7b7dad83', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('A540E514-6D98-4612-9782-242D8069B177', '4C0DB924-A6EB-43B7-BDCE-1E6E934AB14D', '我们都', '0', 3, '在一起', '这么些', '这么些', NULL, 555, '18175186280', '我们', NULL, NULL, NULL, NULL, NULL, 'b3ddebf4-f65a-4b23-985f-642569789468', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('BEACBF7D-CC7F-41BD-9344-354F9E0261AA', '71D0C17C-4A50-4F35-9750-F8FCAD3DA4AB', '张三', '1', 2, '北京大学', '工作十年', '漂漂亮亮', '擅长1', 50, '13212345678', '', NULL, NULL, NULL, NULL, NULL, '9088b245-4092-487b-b758-09f7b9676eba', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('919BD380-439B-42B0-BA2C-35B0A3429E27', '71D0C17C-4A50-4F35-9750-F8FCAD3DA4AB', '李大爷', '1', 5, NULL, 'ten years ', '我在马路边捡到一分钱，然后交给警察叔叔手里边，叔叔拿着钱买了一包烟', NULL, 100, NULL, NULL, 'z@163.com', 10, 263, NULL, NULL, 'a89cdf99-4250-46b6-b854-f0d653450e9e', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('DB569652-38E8-485E-BD5E-8614C7EC89BE', '06CC7B7B-43EE-45F2-A671-DB11E553D4E6', '老先生', '0', 0, NULL, 'ten years ', 'be', NULL, 85, NULL, NULL, 'z@163.com', 8, 258, NULL, NULL, '5500620b-f5e7-43f0-8ef5-17164795ed40', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('F739C545-81A9-4DA5-AA4E-AAD0C6346905', '71D0C17C-4A50-4F35-9750-F8FCAD3DA4AB', '无梦', '0', 3, '社会大学', '社会经验', '没有梦想的设计师，和咸鱼有什么区别。', NULL, 70, '15973816325', '369822', '319941436@163.com', 12, 125, NULL, NULL, '840d67b4-c2ea-41b2-ba19-7c4c5c8d2ca6', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('43977F53-3CDE-4476-A68A-B0E50BD5CB0E', '06CC7B7B-43EE-45F2-A671-DB11E553D4E6', '老先生', '0', 0, NULL, 'ten years ', 'be', NULL, 80, NULL, NULL, 'z@163.com', 32, 22, NULL, NULL, '87f5037b-e1f2-4f9e-b761-5babf4173e96', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpghttp://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('ADCCE59A-6BE3-4020-956D-BE3BE95CA32A', 'C80F8FC0-3CA3-46F7-AC36-523514E4D09D', '李大爷', '1', 5, NULL, 'ten years ', '夏虫不可语冰 古人诚不我欺', NULL, 90, NULL, NULL, 'z@163.com', 4, 56, NULL, NULL, 'f11684d3-fd89-424c-a6fc-275994b25112', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('C04BEB59-0842-4F41-B011-D3EA0C9968BD', '4C0DB924-A6EB-43B7-BDCE-1E6E934AB14D', '周', '0', 25, '长沙', '很多', '你好', NULL, 20, '18152607562', '123456', NULL, NULL, NULL, NULL, NULL, '05ed2e34-9b37-4cff-a65e-af3ad51504d6', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO
+INSERT INTO [ZX_Designer] VALUES ('96BB040D-4616-460D-82D7-F81F58582648', '4C0DB924-A6EB-43B7-BDCE-1E6E934AB14D', '我们都', '0', 3, '在一起', '这么些', '这么些', NULL, 555, '18175186280', '我们', NULL, NULL, NULL, NULL, NULL, '15dd14c3-5a33-4f39-853e-572916251045', NULL, '天意设计', 1, NULL, 'http://118.25.108.201/serviceImg/tmp_79b6f1d7985ac40fe3d64d0b3da0bdde.jpg');
+GO

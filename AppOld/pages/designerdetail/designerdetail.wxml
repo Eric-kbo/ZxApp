@@ -1,0 +1,95 @@
+<scroll-view scroll-y style="height: 100vh;">
+  <!--广告-->
+  <view class="page-section-spacing">
+    <swiper indicator-dots="false" autoplay="false">
+      <block wx:for="{{ADInfo}}">
+        <swiper-item bindtap="articleClick" data-link="{{item.link}}" data-showtype="{{item.linkType}}">
+          <image src="{{item.pic}}" mode="widthFix" class="slide-imagesds" style="width:750rpx;display:inline-block;" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='titleStyle'>
+    <image src="/images/arrowRight.png"></image>
+    <text>设计师简历</text>
+  </view>
+  <view style="width: 100%; height: 320rpx; margin:0% 0% 3% 0%; padding: 3% 0% 0% 4%; background-size:100% 100%;background-image: url('../../images/DetailInfoBg.png');">
+
+    <!-- 头像 -->
+    <view class='headportaitStyle'>
+      <image src="{{Photo}}"></image>
+    </view>
+    <view>
+      <view class='companytitleStyle magelefttext'>
+        <text>{{DesignerTitle}}</text>
+      </view>
+      <view class='pricelabel'>
+        <text style='float:left; font-size:4vw;'>{{Price}}<text style='font-size:15rpx; float:right;'>元</text></text>
+        <view style='width:100%;height:auto; float:right; color:#fff; font-size:20rpx;border-top:1rpx solid  #fff; -webkit-transform:rotate(-45deg);'>
+          <view style='width:40rpx; margin:5rpx 0rpx 0rpx 25rpx;-webkit-transform:rotate(45deg); font-size:20rpx;'>平方</view>
+        </view>
+      </view>
+      <view class='viewfloatStyle magelefttext'>
+        <text class='nameStyle'>{{DeName}}</text>
+        <text class='positionStyle'>设计师</text>
+      </view>
+      <view class='SpaceStyle'>
+
+        <view>
+          <text class='giftedat'>【擅长空间】</text>
+          <text class='detailedcontent'>{{Eexpert}}</text>
+        </view>
+        <view>
+          <text class='giftedat'>【设计理念】</text>
+          <text class='detailedcontent'>{{Idea}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 设计方案 -->
+  <!-- 标头 -->
+
+  <view class='titleStyle'>
+    <image src="/images/arrowRight.png"></image>
+    <text>设计方案</text>
+    <text id='designtitlestyle'>家居住宅/别墅豪宅/餐厅/会所</text>
+  </view>
+  <!-- 图片展示区域 -->
+  <view class='planshows'>
+    <view class='planleft'>
+      <view wx:for="{{CaseList}}">
+        <image bindtap='ImgShow' class="image" style='' src="{{item.ImageFile}}"></image>
+      </view>
+    </view>
+  </view>
+  <!-- 设计流程 -->
+  <view class='process'>
+    <image class="image" src="/images/Process.png" style="width:100%; height:700rpx;"></image>
+  </view>
+  <view class="promote">
+    <view class='promote-titles'>
+      <label class='promote-titles-one'>精选文章</label>
+      <label class='promote-titles-two'>了解更多</label>
+    </view>
+    <view class='clearboth'></view>
+    <block wx:for="{{DesignerArticle}}">
+      <view class='content' data-link="{{item.Http}}" bindtap="articleClick">
+        <view class="titlecnt titleimg">
+          <image src="{{item.ImageFile}}"></image>
+        </view>
+        <view class="titlecnt titletxt">
+          <view class='titletxt-title'>{{item.Title}}</view>
+          <view class='titletxt-content'>{{item.ContentDesc}}</view>
+        </view>
+      </view>
+      <view class='clearboth'></view>
+    </block>
+
+  </view>
+
+  <view>
+
+  </view>
+</scroll-view>

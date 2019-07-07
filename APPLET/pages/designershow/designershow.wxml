@@ -1,0 +1,30 @@
+<view class='page-style'>
+  <view class='toptitle'>
+    <text class='namestyle'>{{DeName}}</text>
+    <text class='positionstyle'>设计师</text>
+    <text class='attentiondegreestyle'>关注度:</text>
+    <text class='number'>{{DeLevel}}</text>
+  </view>
+  <view class="page-section-spacing">
+    <swiper bindchange="bindintrodu"  autoplay="false" indicator-dots="false" indicator-active-color="#fff">
+      <block wx:for="{{DeCaseList}}" wx:for-index="index">
+        <swiper-item bindtap="ClickSwiper" data-DecaseID="{{item.DecaseID}}">
+          <image src="{{item.ImageFile}}" data-isIndex="{{index}}" mode="aspectFit"  style="  display:inline;" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+<view>
+  <view class='introduction'>
+    <view class='explain'>设计说明</view>
+    <view class='description'>
+      <text disabled='true' >{{Design}}</text>
+    </view>
+  </view>
+  <view class='fixed'>
+    <view class='bottomstyle'>
+      <view class='TaStyle'>找TA设计</view>
+      <view class='processStyle'>查看流程</view>
+    </view>
+  </view>
+</view></view>

@@ -1,0 +1,121 @@
+<!--pages/searchresult/searchresult.wxml-->
+<view class="searchk">
+  <view class="searchr40">
+     姓　　名：
+  </view>
+  <view class="searchl" >
+  <input  bindinput="DeName" name="DeName" auto-focus="true" /></view>
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    性　　别：
+  </view>
+  <view class="searchlr">
+  <radio-group class="radio-group" bindchange="sexChange">
+    <radio value="0" checked="checked"/>男
+    <radio value="1" />女
+</radio-group>
+  </view>
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    从事年数：
+  </view>
+  <view class="searchl40" >
+    <input type='number' bindinput="WorkYear"   name="WorkYear" />
+  </view>
+</view>
+<view class="searchk">
+  <view class="searchr40">
+   毕业学校：
+  </view>
+  <view class="searchl40" >
+   <input bindinput="School"   name="School"/>
+  </view>
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    工作经历：
+  </view>
+  <!-- <view class="searchl40" >
+   <input  bindinput="Experience"   name="Experience" />
+  </view> -->
+  <textarea class="searchl40"  bindinput="Experience"  name="Experience"
+  style="height: 3em" /> 
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    设计理念：
+  </view>
+  <!-- <view class="searchl40" >  -->
+      <!-- <input bindinput="Idea"  name="Idea"/>  -->
+  <!-- </view> -->
+  <textarea class="searchl40"  bindinput="Idea"  name="Idea" style="height: 3em" /> 
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    设计定价：
+  </view>
+  <view class="searchl40" >
+   <input type="number" bindinput="Price"   name="Price" />
+  </view>
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    设计作品：
+  </view>
+  <!--<view class="searchl">
+   <!--<input class='worksipt'   bindinput="ImgTitle"   name="ImgTitle"/>
+  <!--<button  class="uploadbtn">上传</button>
+  </view>-->
+</view>
+ <view class="imgsfile" >
+ <block wx:for="{{ImageFile}}" >
+    <image src="{{item.src}}" hidden='{{item.hid}}' data-id="{{item.id}}" bindtap="{{item.upload}}" class='uploadimg'></image>
+  </block>
+  </view>
+<!--<view class="searchk">
+  <view class="searchr40">
+    作品介绍：
+  </view>
+  <view class="searchl40" >
+     <input bindinput="CaseDesc"   name="CaseDesc"/>
+  </view>
+</view>-->
+<view class="searchk">
+  <view class="searchr40">
+    电话号码：
+  </view>
+  <view class="searchl40" >
+     <input  bindinput="Mobile" type='number' name="Mobile" />
+  </view>
+</view>
+<view class="searchk">
+  <view class="searchr40">
+    微　　信：
+  </view>
+  <view class="searchl" >
+   <input  bindinput="WxCode"   name="WxCode" />
+  </view>
+</view>
+<!--<view class="searchk">
+  <view class="searchr40">
+    邮　　箱：
+  </view>
+  <view class="searchl" >
+   <input  bindinput="Email"   name="Email" />
+  </view>
+</view>-->
+<!-- <view class="searchk">
+  <view class="searchr40">
+    相关制度：
+  </view>
+   <view class="searchlr">
+     </view>
+</view> -->
+<view class="btn-area">
+  <view class="body-view systemcontent">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;填写资料48小时内,我们将有专业人员与你联系,并对你的资料真实性进行验证,如果您通过我们的考验 你将获取得本平台送给你(1年使用权)的个人设计小程序平台,在一年内本平台根据你的综合能力考虑是否来年继续合作</text>
+    <button bindtap="add" class='btnadd'>提交</button>
+  </view>
+</view>

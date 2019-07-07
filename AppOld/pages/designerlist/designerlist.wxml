@@ -1,0 +1,84 @@
+<!--pages/searchresult/searchresult.wxml-->
+
+<!--广告-->
+<view class="page-section-spacing">
+  <swiper indicator-dots="false" autoplay="false">
+    <block wx:for="{{ADInfo}}">
+      <swiper-item bindtap="articleClick" data-link="{{item.link}}" data-showtype="{{item.linkType}}">
+        <image src="{{item.pic}}" mode="widthFix" class="slide-imagesds" style="width:750rpx;display:inline-block;" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="clearboth"></view>
+<image class="image" src="/images/designeradd.png" style="width:100%;" mode="widthFix"></image>
+<view class="goodcont">
+  <block wx:for="{{DesignerList}}" wx:key="ID">
+    <view class="goodlis" data-id="{{item.ID}}" bindtap="goToDetail">
+      <view class="qglistpic">
+        <image src="{{item.ImageFile}}" mode="aspectFit"></image>
+      </view>
+      <view class="name">
+        <i class="dname">{{item.DesignerTitle}}</i>
+        <i class="rz">V{{item.DeLevel}}认证</i>
+      </view>
+      <view class="namearea">
+        <i class="info">所在区域</i>
+        <i class="info" style=" color: #2f3638;">{{item.AreaName}} </i>
+        <i class="info">作品 </i>
+        <i class="info">{{item.WorkCount}}套</i>
+      </view>
+      <view class="nameareabig">预约数|{{item.PreCount}} </view>
+      <view class="saleprice">
+        <text class="info">家居住宅|别墅住宅|餐厅</text>
+        <view class="xialiang">
+          <i class="xialiangprice">{{item.Price}}</i>
+          <image style="width:80rpx;height:80rpx;" src="/images/Pricebox.png" mode="aspectFit"></image>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>
+<!--无设计师-->
+<view class="kong" hidden="{{DesignerList.length>0}}">
+  <!--<image src="/images/xiaolian.jpg"></image>-->
+  <text>很抱歉,没有搜索到设计师</text>
+</view>
+<view class="page-section bg-wihte">
+  <view class="hd-pic" bindtap="ClickSwiper" data-link="" data-showtype="">
+    <image class="image" src="/images/designerstyle.png" style="width:100%;" mode="widthFix"></image>
+  </view>
+  <view class="bd-list-pic">
+
+    <block wx:for="{{DesignerImgs}}">
+      <view class="bd-list-pro-pic" data-link="" data-showtype="">
+        <image class="image" src="{{item.DesStyleList[0].ImageFile}}" style="width:100%; height:250rpx" bindtap="showimg" data-imgs="{{item.DesStyleList}}" class="border-right  border-bottom"></image>
+        <view class='designerpsit' bindtap="showimg" data-imgs="{{item.DesStyleList}}">
+          <text bindtap="showimg" data-imgs="{{item.DesStyleList}}">{{item.ImageDesc}}\n<text style='font-size:20rpx;'>{{item.Count}}套</text></text>
+        </view>
+      </view>
+    </block>
+    <!--</block>-->
+  </view>
+</view>
+<!--推广及说明区-->
+<view class="promote">
+  <view class='promote-titles'>
+    <label class='promote-titles-one'>装修风水</label>
+    <label class='promote-titles-two'>了解更多</label>
+  </view>
+  <view class='clearboth'></view>
+  <block wx:for="{{DesignerArticle}}">
+    <view class='content' data-link="{{item.Http}}" bindtap="articleClick">
+      <view class="titlecnt titleimg">
+        <image src="{{item.ImageFile}}"></image>
+      </view>
+      <view class="titlecnt titletxt">
+        <view class='titletxt-title'>{{item.Title}}</view>
+        <view class='titletxt-content'>{{item.ContentDesc}}</view>
+      </view>
+    </view>
+    <view class='clearboth'></view>
+  </block>
+</view>

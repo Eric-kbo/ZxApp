@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/designerlist/designerlist",
+    "pages/designerdetail/designerdetail",
+    "pages/designeradd/designeradd",
+    "pages/designershow/designershow",
+    "pages/webpageshow/webpageshow",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "orange",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "天兮装修服务"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff5722",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/toolBar/home.png",
+        "selectedIconPath": "/images/toolBar/home.png",
+        "selectedColor": "#ff5722"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "联系",
+        "iconPath": "/images/toolBar/contact.png",
+        "selectedIconPath": "/images/toolBar/contact.png",
+        "selectedColor": "#ff5722"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/images/toolBar/Specials.png",
+        "selectedIconPath": "/images/toolBar/Specials.png",
+        "selectedColor": "#ff5722"
+      },
+      {
+        "pagePath": "pages/designerlist/designerlist",
+        "text": "合作",
+        "iconPath": "/images/toolBar/cooperation.png",
+        "selectedIconPath": "/images/toolBar/cooperation.png",
+        "selectedColor": "#ff5722"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "/images/toolBar/me.png",
+        "selectedIconPath": "/images/toolBar/me.png",
+        "selectedColor": "#ff5722"
+      }
+    ]
+  }
+}

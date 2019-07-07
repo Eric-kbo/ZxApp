@@ -1,0 +1,80 @@
+/* 头部 */
+/* .titletop text{font-size:52rpx;line-height: 52rpx; height:52rpx;padding-left:5%;} */
+
+/*设计师基本信息*/
+/* .coupontitle{border-bottom: 1px solid #dcdcdc; border-top: 1px solid #dcdcdc; background: #fff;padding-top:10rpx;padding-bottom:10rpx;display: flex; text-align: center;height: 300rpx;}
+
+.titleimg{width: 45%;margin-left: 5%;}
+.img {height: 300rpx;width: 100%;}
+.titletxt{font-size:25rpx;width: 48%;text-align: left;padding-left: 10rpx;}
+.titlecnt{float: left;}
+.contenttop text{font-size:34rpx;line-height: 34rpx; height:34rpx;padding-left:5%;}
+.contenttop{margin-top: 40rpx;}
+.content{width: 90%;} */
+/*设计师详细内容*/
+/* .downcontent {text-align: center;}
+.downcontent img{width: 90%;}
+
+
+  .kong{ display: flex;
+  flex-direction: column;
+  align-items: center;  background: #fff; padding: 210rpx 0; clear: both;}
+.kong image{width: 171rpx; height: 171rpx; margin-bottom: 50rpx;}
+.name{ height: 160rpx; line-height:42 rpx;overflow: hidden;font-size: 14px; color: #2f3638;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;padding-top: 150rpx;padding-left:15rpx;padding-right:15rpx;} */
+.searchk image{width: 100%;height: 350rpx;}
+
+.page-section-spacing {
+    box-sizing: border-box;
+}
+.page-section-spacing swiper {
+    display: block;
+    height: 350rpx;
+}
+
+.titleStyle { width: 94%;height: 40rpx; padding-left: 40rpx; margin: 1% 0% 1% 0%;}
+.titleStyle image{width: 5%;height:35rpx; float: left;}
+.titleStyle text{padding-left: 15rpx; float: left;font-size:35rpx !important; color: #645e55; height: 40rpx; line-height: 40rpx;}
+
+.headportaitStyle {width:35%; height: 90%; float: left; }
+.headportaitStyle image{width: 100%; height: 100%; }
+.magelefttext text {padding:0% 0% 0% 2%; }
+
+.pricelabel{ width:10%;  float: right; margin:-50rpx 51rpx 0rpx 50rpx; height: auto;}
+.pricelabel text {color: #fff; text-align: center;}
+
+
+.companytitleStyle { width:80%; height:100%; }
+.companytitleStyle text {font-size: 40rpx; font-weight: bold;}
+.nameStyle {font-size: 30rpx; }
+.positionStyle {font-size: 20rpx; }
+.viewfloatStyle{ margin-top: -1%;width:80%;}
+
+.SpaceStyle {width:95%;}
+.giftedat{ font-size:30rpx; font-weight: bold;}
+.detailedcontent{ width:60%; font-size:25rpx; float:left; padding:0% 0% 0% 2%;}
+#designtitlestyle {font-size:25rpx !important; position:relative; left:22%; top:6%;}
+
+
+.planshows { height: auto; margin:0 auto; left:0; right:0;  width: 90%;  }
+
+.planleft{ width: 100%; height: 280rpx; margin: 3% 0% 0% 0%; }
+.planleft image{ float:left; width:49%; height:280rpx; margin: -1% 0% 2% 1%;}
+
+/* .planright{width: 49%; height: 250rpx; margin: 0% 0% 1% 0%; float: right;} */
+
+.process{height: auto; margin:0 auto; left:0; right:0; margin-top: 20rpx; width: 90%;}
+.process image{padding:20rpx 0rpx 0rpx 0rpx;}
+
+
+.titleimg{width:18%;margin-left: 2%;}
+.titleimg image{width:100%;height:100rpx}
+.titletxt{font-size:25rpx;width: 76%;text-align: left;padding-left: 10rpx;}
+.titletxt-title{font-size:25rpx;text-align: left;width:100%;}
+.titletxt-content{font-size:20rpx;text-align: left;color: #A8A8A8;width:100%;}
+.titlecnt{float: left;}
+.content{width: 100%;margin-top:10rpx;border-top: 1px solid #A8A8A8;padding-top:3rpx;}
+.clearboth{clear:both;}
+.promote{width:90%;height: auto; margin:0 auto; left:0; right:0; margin-top: 20rpx;border-bottom: 1px solid #A8A8A8;margin-bottom: 5rpx;}
+promote-titles{line-height: 25rpx;height: 25rpx;}
+.promote-titles-two{float: right;font-size: 20rpx;color: #A8A8A8;line-height: 25rpx;height: 25rpx;margin-right:3rpx;}
+.promote-titles-one{float: left;font-size: 25rpx;border-left: 2px solid black;line-height: 25rpx;height: 25rpx;}

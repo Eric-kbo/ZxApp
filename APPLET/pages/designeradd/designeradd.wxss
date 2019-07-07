@@ -1,0 +1,18 @@
+.searchk{display: flex; padding: 15rpx; }
+.searchl{border: 1px solid #dddddd;border-radius: 6px;width: 495rpx;height: 60rpx;line-height: 60rpx; padding-left:35rpx;   background: #f7f8fc; display: flex; font-size: 14px;}
+.searchlr{width: 495rpx;height: 60rpx;line-height: 60rpx; padding-left:35rpx; display: flex; font-size: 14px;}
+.searchl input{width: 460rpx;height: 60rpx;line-height: 60rpx; }
+.searchr{width: 130rpx; text-align: center; line-height: 60rpx;}
+
+.searchl40{border: 1px solid #dddddd;border-radius: 6px;width: 495rpx;height: 60rpx;line-height: 60rpx; padding-left:35rpx;   background: #f7f8fc; display: flex; font-size: 14px;}
+.searchl40 input{width: 390rpx;height: 60rpx;line-height: 60rpx;  }
+.searchr40{width: 200rpx; text-align: left; line-height: 60rpx;padding-right:20rpx; }
+.systemcontent{padding: 20px;font-size:30rpx;color: orange}
+.uploadbtn{font-size: 25rpx;width: 120rpx;height: 60rpx;line-height: 60rpx; }
+.searchl20{ display: flex;width: 495rpx;}
+.searchl20 input{border: 1px solid #dddddd;border-radius: 6px;width: 390rpx;height: 60rpx;line-height: 60rpx; background: #f7f8fc;}
+.uploadimg{width:100rpx;height: 100rpx;margin-left:20rpx }
+.btnadd{background-color: #00CD00;color: white;margin-top: 20rpx;}
+.imgsfile {margin-left: 30%;}
+.comentpic,.comenttilte{display:flex; background: #fff;}
+.comentpic{padding:0 24rpx;}

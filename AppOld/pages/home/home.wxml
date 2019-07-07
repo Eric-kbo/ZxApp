@@ -1,0 +1,41 @@
+<!--pages/home/home.wxml-->
+<scroll-view class="full-scroll" scroll-y="true" scroll-top="{{scrollTop}}" bindscroll="scroll">
+ <!--one-->
+  <view class="page-section-spacing">
+    <swiper indicator-dots="false" autoplay="false">
+      <block wx:for="{{one}}" >
+        <swiper-item bindtap="articleClick" data-link="{{item.link}}" data-showtype="{{item.linkType}}">
+          <image  src="{{item.pic}}" mode="widthFix" class="slide-imagesds"  style="width:750rpx;display:inline-block;" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+   <!--two-->  
+  <view class="page-section bg-wihte ">
+    <block wx:for="{{two}}">
+      <view class="menu-icon menu-icon{{two.length}}" bindtap="ClickSwiper" data-link="{{dataset.link}}" data-showtype="{{item.linkType}}">
+        <image class="image" src="{{item.pic}}"></image>
+        <view class="menu-name">{{item.showtitle}}</view>
+      </view>
+    </block>
+  </view>
+   <!--three-->  
+  <view class="page-section bg-wihte ">
+    <block wx:for="{{three}}">
+      <view class="menu-icon menu-icon{{three.length}}" bindtap="ClickSwiper" data-link="{{item.link}}" data-showtype="{{item.linkType}}">
+        <image class="image" src="{{item.pic}}"></image>
+        <view class="menu-name">{{item.showtitle}}</view>
+      </view>
+    </block>
+  </view>
+ <!--four-->
+   <view class="page-section bg-wihte">
+    <view class="banner-pic" bindtap="ClickSwiper" data-link="{{four[0].link}}" data-showtype="{{four[0].linkType}}">
+      <image class="image" src="{{four[0].pic}}" style="width:100%; height:{{four[0].picHeight}}rpx;" />
+    </view>
+  </view>
+    <view class="goTop" bindtap="goTop" hidden="{{gotopVal}}">
+        <view class="iconfont icon-gotop"></view>
+    </view>
+
+</scroll-view>

@@ -1,0 +1,126 @@
+.page-style {
+  background-color: #000;
+  height: 100vh;
+  overflow-x:hidden;
+overflow-y:hidden;
+}
+
+.toptitle {
+  width: 90vw;
+  height: 10vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding-top: 1%;
+  margin-bottom: 8%;
+}
+
+.namestyle {
+  margin-right: 5%;
+  letter-spacing: 10rpx;
+}
+
+.positionstyle {
+  font-size: 30rpx;
+}
+
+.attentiondegreestyle {
+  margin-left: 25vw;
+  font-size: 35rpx;
+  color: #ccc;
+}
+
+.number {
+  margin: 3vw;
+  font-size: 35rpx;
+  color: #ccc;
+}
+
+
+
+
+.introduction {
+  width: 90vw;
+  height: 30vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding-top: 20rpx;
+}
+
+.explain {
+  width: 100vw;
+  color: #fff;
+  padding-top: 10rpx;
+}
+
+.description {
+  color: #ccc;
+  font-size: 25rpx;
+  overflow: hidden;
+  overflow-y:auto;
+  height: 100%;
+}
+.th-text{
+ width: 100%;
+  justify-content: center;
+  color: #000;
+  display: block;
+  height: 70rpx;
+  align-items: center;
+  max-height: 70rpx;
+
+}
+.swiper-box {
+  display: block;
+  overflow: hidden;
+}
+
+.textareastyle{
+  width: 100%;
+  height: 50rpx;
+  
+}
+
+/* .page-section-spacing image{
+  
+} */
+.page-section-spacing {
+    box-sizing: border-box;
+   
+  width: 100vw;
+}
+.page-section-spacing swiper {
+    display: block;
+    height: 250px;
+}
+
+.fixed {
+  color: #fff;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 8vh;
+  background-color: #000;
+  z-index: 9999;
+}
+.bottomstyle{
+  width: 100%;
+  height: 100%;
+  text-align:center;
+  line-height: 250%;
+}
+.TaStyle{
+  background-color: #015d26;
+  height: 100%;
+  float:left;
+  width: 40%;
+}
+.processStyle{
+  background-color: #009038;
+   height: 100%;
+  float: right;
+  width: 60%;
+}
